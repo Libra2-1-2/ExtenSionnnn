@@ -1,0 +1,46 @@
+/* Close button styles */
+.close-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+    cursor: pointer;
+    padding: 5px 8px;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+}
+
+.close-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.close-button.selected {
+    background-color: red;
+    color: white;
+}
+
+/* Check button styles */
+.check-button {
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.check-button:hover {
+    background-color: green;
+    color: white;
+}
+
+.check-button.selected {
+    background-color: green;
+    color: white;
+}
+.score {
+    font-size: 11px;
+    margin-right: 10px;
+    white-space: nowrap;
+}

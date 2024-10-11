@@ -1,0 +1,62 @@
+.list-question {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.question-item {
+  margin-bottom: 10px;
+}
+
+.question-item-btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--dark-background-color-secondary);
+  color: var(--white-color);
+  cursor: pointer;
+  text-align: left;
+  
+}
+
+.question-form {
+  display: flex;
+  gap: 4px;
+}
+
+.question-textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--dark-background-color-secondary);
+  color: var(--black-color);
+  resize: none;
+}
+
+.btn-submit-question {
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--glurple-color);
+  color: var(--white-color);
+  cursor: pointer;
+  min-width: 60px;
+}
+
+#chat-container {
+  width: 100%;
+  max-height: 345px;
+  height: 345px;
+  overflow: auto;
+}
+
+.chat-box {
+  background-color: var(--dark-background-color);
+  color: var(--white-color);
+  padding: 10px 10px;
+  text-align: left;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}

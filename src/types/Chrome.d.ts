@@ -1,0 +1,3 @@
+interface StorageVTScans {
+    VTtests: VTtest[];
+}
